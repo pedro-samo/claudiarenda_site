@@ -1,0 +1,19 @@
+.cr-banner {
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+
+  &__text {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-family: "Ms Madi", cursive;
+    font-size: 45px;
+    text-align: center;
+    max-width: 500px;
+  }
+}

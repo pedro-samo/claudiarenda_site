@@ -1,0 +1,33 @@
+.cr-header {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+
+  &__nav {
+    align-self: flex-end;
+    padding: 20px 80px;
+
+    &_list {
+      display: flex;
+      gap: 18px;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__logo {
+    position: absolute;
+    background-color: white;
+    left: 150px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    border-radius: 10px;
+    margin-top: -10px;
+
+    img {
+      padding: 40px 20px 30px;
+      width: 200px;
+    }
+  }
+}
