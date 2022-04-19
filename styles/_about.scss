@@ -1,0 +1,55 @@
+.cr-about {
+  max-width: 1200px;
+  padding: 80px 30px;
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    width: 50%;
+
+    &_title {
+      font-family: "Square Peg", cursive;
+      font-size: 40px;
+      color: #ebb342;
+
+      strong {
+        font-size: 60px;
+        color: #b39379;
+      }
+    }
+
+    &_subtitle {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    &_description {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+  &__image {
+    display: flex;
+    flex-direction: column;
+
+    &_pic {
+      &:nth-child(1) {
+        img {
+          max-width: 450px;
+        }
+      }
+      &:nth-child(2) {
+        img {
+          max-width: 420px;
+          transform: translate(-100px, -100px);
+        }
+      }
+    }
+  }
+}
