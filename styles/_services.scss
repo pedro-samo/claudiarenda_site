@@ -1,5 +1,103 @@
 .cr-services {
   background-color: #f9efdb;
-  height: 400px;
   margin-top: -350px;
+  display: flex;
+  padding-bottom: 50px;
+
+  &__title {
+    width: 50%;
+    padding: 60px 0;
+
+    &_main {
+      font-family: "Square Peg", cursive;
+      font-size: 120px;
+      color: #b39379;
+    }
+
+    &_divider {
+      height: 3px;
+      width: 70px;
+      display: block;
+      background-color: #b39379;
+      margin-left: 80px;
+    }
+
+    &_secundary {
+      padding: 10px 80px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+
+    &_image {
+      padding: 30px 150px;
+    }
+  }
+
+  &__container {
+    margin: 200px 50px 0 0;
+
+    input {
+      display: none;
+    }
+
+    label {
+      display: flex;
+      width: 100%;
+      height: 50px;
+      cursor: pointer;
+      border: 3px solid #b39379;
+      user-select: none;
+    }
+
+    label div:first-child {
+      width: 100%;
+      line-height: 45px;
+      margin-left: 10px;
+      font-size: 1.2em;
+    }
+
+    &_cross {
+      margin-right: 15px;
+      margin-top: 3px;
+    }
+
+    &_cross:before,
+    &_cross:after {
+      content: "";
+      border-top: 2px solid #b39379;
+      width: 15px;
+      display: block;
+      margin-top: 18px;
+      transition: 0.3s;
+    }
+
+    &_cross:after {
+      transform: rotate(90deg);
+      margin-top: -2px;
+    }
+
+    &_content {
+      box-sizing: border-box;
+      font-size: 0.9em;
+      margin: 10px 10px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height, 0.5s;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    input:checked ~ &_content {
+      max-height: 400px;
+      transition: max-height, 1s;
+    }
+
+    input:checked ~ label &_cross:before {
+      transform: rotate(180deg);
+    }
+
+    input:checked ~ label &_cross:after {
+      transform: rotate(0deg);
+    }
+  }
 }
