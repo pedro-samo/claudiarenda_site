@@ -1,0 +1,46 @@
+.cr-video {
+  display: flex;
+
+  &__iframe {
+    background-color: #b39379;
+    padding: 80px 0px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    &_box {
+      width: 80%;
+
+      iframe {
+        min-height: 400px;
+      }
+    }
+  }
+
+  &__text {
+    width: 40%;
+    padding: 80px 20px 0px 50px;
+
+    &_title {
+      font-family: 'Square Peg', cursive;
+      color: #eab440;
+      font-size: 50px;
+    }
+
+    &_divider {
+      height: 3px;
+      width: 70px;
+      display: block;
+      background-color: #b39379;
+      margin-left: 0px;
+    }
+
+    &_sub {
+      font-size: 18px;
+      width: 90%;
+      margin-top: 20px;
+      font-weight: 400;
+    }
+  }
+}

@@ -21,7 +21,7 @@ function sassCompilation() {
 function gulpJs() {
   return gulp
     .src("scripts/*.js")
-    .pipe(concat("loreal-color-fetival.js"))
+    .pipe(concat("cr_landingpage.js"))
     .pipe(
       babel({
         presets: ["@babel/env"],
