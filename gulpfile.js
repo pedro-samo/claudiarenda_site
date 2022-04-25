@@ -15,7 +15,7 @@ function sassCompilation() {
         cascade: false,
       })
     )
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('dist/'));
 }
 
 function gulpJs() {
@@ -28,7 +28,7 @@ function gulpJs() {
       })
     )
     .pipe(uglify())
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('dist/'));
 }
 
 function gulpWatch() {
