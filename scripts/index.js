@@ -7,12 +7,12 @@ const initFunctions = {
     const selectImageByIndex = (index) => {
       const image = document.querySelector('.cr-services__title_image');
       const imagesUrls = [
-        'http://127.0.0.1:5501/images/services_2.png',
-        'http://127.0.0.1:5501/images/services_3.png',
-        'http://127.0.0.1:5501/images/services_4.png',
-        'http://127.0.0.1:5501/images/services_5.png',
-        'http://127.0.0.1:5501/images/services_2.png',
-        'http://127.0.0.1:5501/images/services_3.png',
+        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_2.png',
+        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_3.png',
+        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_4.png',
+        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_5.png',
+        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_2.png',
+        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_3.png',
       ];
 
       const newImage = document.createElement('img');
