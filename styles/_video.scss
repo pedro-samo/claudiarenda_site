@@ -20,12 +20,18 @@
 
   &__text {
     width: 40%;
-    padding: 80px 20px 0px 50px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
 
     &_title {
       font-family: 'Square Peg', cursive;
       color: #eab440;
       font-size: 50px;
+      font-weight: 400;
+      align-self: start;
     }
 
     &_divider {

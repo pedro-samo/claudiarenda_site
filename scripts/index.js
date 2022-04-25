@@ -28,8 +28,14 @@ const initFunctions = {
       })
     );
   },
+
+  carouselSlide: function () {
+    const carousel = new Splide('.splide');
+    carousel.mount();
+  },
 };
 
 window.addEventListener('DOMContentLoaded', (event) => {
   initFunctions.changeImageServecice();
+  // initFunctions.carouselSlide();
 });

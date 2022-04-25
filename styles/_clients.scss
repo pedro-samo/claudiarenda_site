@@ -1,0 +1,53 @@
+.cr-clients {
+  width: 100vw;
+  background-image: url('../images/wallpaper.jpg');
+  background-size: contain;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_baloon {
+      position: relative;
+      width: 350px;
+      height: 130px;
+      background: #efefef;
+      border: 1px solid #a7a7a7;
+      border-radius: 4px;
+      box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+      padding: 15px;
+
+      &-arrow {
+        position: absolute;
+        right: 15px;
+        bottom: -25px;
+        border-left: 21px solid transparent;
+        border-top: 20px solid rgba(0, 0, 0, 0.2);
+
+        &::before {
+          content: '';
+          position: absolute;
+          right: 5px;
+          bottom: 2px;
+          border-left: 23px solid transparent;
+          border-top: 23px solid #a7a7a7;
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          right: 6px;
+          bottom: 4px;
+          border-left: 21px solid transparent;
+          border-top: 21px solid #efefef;
+        }
+      }
+    }
+  }
+}
