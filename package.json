@@ -5,8 +5,8 @@
   "author": "Pedro Morais",
   "license": "MIT",
   "scripts": {
-    "build": "gulp dev",
-    "dev": "gulp build"
+    "build": "gulp build",
+    "dev": "gulp dev"
   },
   "dependencies": {
     "gulp": "^4.0.2",
