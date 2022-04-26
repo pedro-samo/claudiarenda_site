@@ -73,5 +73,9 @@
     font-size: 60px;
     box-shadow: none;
     color: #683b16;
+
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }

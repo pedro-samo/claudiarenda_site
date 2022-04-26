@@ -5,6 +5,12 @@
   display: flex;
   gap: 100px;
 
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+    gap: 0px;
+    flex-direction: column-reverse;
+  }
+
   &__text {
     display: flex;
     flex-direction: column;
@@ -12,43 +18,78 @@
     gap: 20px;
     width: 50%;
 
+    @media only screen and (max-width: 768px) {
+      padding: 0px 20px;
+      gap: 0px;
+      width: 90%;
+      margin-top: -50px;
+    }
+
     &_title {
       font-family: 'Square Peg', cursive;
       font-size: 70px;
       color: #ebb342;
       font-weight: 300;
 
+      @media only screen and (max-width: 768px) {
+        font-size: 60px;
+      }
+
       strong {
         font-size: 60px;
         color: #b39379;
+        margin-top: -10px;
+
+        @media only screen and (max-width: 768px) {
+          display: block;
+        }
       }
     }
 
     &_subtitle {
       font-size: 18px;
       font-weight: 600;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+      }
     }
 
     &_description {
       font-size: 18px;
       font-weight: 400;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 16px;
+        margin-top: 10px;
+      }
     }
   }
 
   &__image {
     display: flex;
     flex-direction: column;
+    @media only screen and (max-width: 768px) {
+      align-items: center;
+    }
 
     &_pic {
       &:nth-child(1) {
         img {
           max-width: 450px;
+          @media only screen and (max-width: 768px) {
+            max-width: 350px;
+          }
         }
       }
       &:nth-child(2) {
         img {
           max-width: 420px;
           transform: translate(-100px, -100px);
+          @media only screen and (max-width: 768px) {
+            max-width: 300px;
+            transform: translate(50px, -50px);
+          }
         }
       }
     }

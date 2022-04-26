@@ -16,5 +16,18 @@
     text-align: center;
     max-width: 500px;
     font-weight: 300;
+
+    @media only screen and (max-width: 768px) {
+      font-size: 45px;
+      min-width: 300px;
+    }
+  }
+
+  &__image {
+    display: flex;
+
+    @media only screen and (max-width: 768px) {
+      align-items: flex-end;
+    }
   }
 }
