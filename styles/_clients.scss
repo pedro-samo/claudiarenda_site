@@ -4,8 +4,16 @@
   background-size: contain;
   height: 300px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  h3 {
+    font-family: 'Square Peg', cursive;
+    color: #683b16;
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
 
   &__container {
     width: 80%;
@@ -22,6 +30,9 @@
       border-radius: 4px;
       box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
       padding: 15px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
 
       &-arrow {
         position: absolute;
@@ -49,5 +60,18 @@
         }
       }
     }
+  }
+}
+
+.glide {
+  &__Slide {
+    height: 150px !important;
+  }
+
+  &__arrow {
+    border: none;
+    font-size: 60px;
+    box-shadow: none;
+    color: #683b16;
   }
 }

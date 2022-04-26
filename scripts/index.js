@@ -7,12 +7,12 @@ const initFunctions = {
     const selectImageByIndex = (index) => {
       const image = document.querySelector('.cr-services__title_image');
       const imagesUrls = [
-        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_2.png',
-        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_3.png',
-        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_4.png',
-        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_5.png',
-        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_2.png',
-        'https://github.com/pedro-samo/claudiarenda_site/blob/master/images/services_3.png',
+        'https://raw.githubusercontent.com/pedro-samo/claudiarenda_site/master/images/services_2.png',
+        'https://raw.githubusercontent.com/pedro-samo/claudiarenda_site/master/images/services_3.png',
+        'https://raw.githubusercontent.com/pedro-samo/claudiarenda_site/master/images/services_4.png',
+        'https://raw.githubusercontent.com/pedro-samo/claudiarenda_site/master/images/services_5.png',
+        'https://raw.githubusercontent.com/pedro-samo/claudiarenda_site/master/images/services_2.png',
+        'https://raw.githubusercontent.com/pedro-samo/claudiarenda_site/master/images/services_3.png',
       ];
 
       const newImage = document.createElement('img');
@@ -30,12 +30,17 @@ const initFunctions = {
   },
 
   carouselSlide: function () {
-    const carousel = new Splide('.splide');
-    carousel.mount();
+    const glide = new Glide('.glide', {
+      autoplay: 4000,
+      hoverpause: true,
+      animationDuration: 1000,
+      perView: 1,
+    });
+    glide.mount();
   },
 };
 
 window.addEventListener('DOMContentLoaded', (event) => {
   initFunctions.changeImageServecice();
-  // initFunctions.carouselSlide();
+  initFunctions.carouselSlide();
 });

@@ -19,6 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./dist/main.css" />
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/css/splide.min.css"> -->
@@ -320,22 +324,80 @@
           </p>
         </div>
       </section>
-      <section class="cr-clients splide">
-        <div class="cr-clients__container splide__track">
-          <div class="cr-clients__container_baloon splide__slide">
-            <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
-              autem quasi inventore unde nobis voluptatibus illum quae rerum
-              laudantium minima, excepturi quis maiores. Eaque quae, nam delectus
-              explicabo, deserunt ipsum! </p>
-            <div class="cr-clients__container_baloon-arrow">
+      <section class="cr-clients">
+        <h3>Depoimentos</h3>
+        <div class="cr-clients__container glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="cr-clients__container_baloon">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Mollitia autem quasi inventore unde nobis voluptatibus illum
+                    quae rerum laudantium minima, excepturi quis maiores. Eaque
+                    quae, nam delectus explicabo, deserunt ipsum!
+                  </p>
+                  <div class="cr-clients__container_baloon-arrow"></div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="cr-clients__container_baloon">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Mollitia autem quasi inventore unde nobis voluptatibus illum
+                    quae rerum laudantium minima, excepturi quis maiores. Eaque
+                    quae, nam delectus explicabo, deserunt ipsum!
+                  </p>
+                  <div class="cr-clients__container_baloon-arrow"></div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="cr-clients__container_baloon">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Mollitia autem quasi inventore unde nobis voluptatibus illum
+                    quae rerum laudantium minima, excepturi quis maiores. Eaque
+                    quae, nam delectus explicabo, deserunt ipsum!
+                  </p>
+                  <div class="cr-clients__container_baloon-arrow"></div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="cr-clients__container_baloon">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Mollitia autem quasi inventore unde nobis voluptatibus illum
+                    quae rerum laudantium minima, excepturi quis maiores. Eaque
+                    quae, nam delectus explicabo, deserunt ipsum!
+                  </p>
+                  <div class="cr-clients__container_baloon-arrow"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <i class="lni lni-arrow-left-circle"></i>
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <i class="lni lni-arrow-right-circle"></i>
+            </button>
           </div>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <a
+        href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
+        class="float"
+        target="_blank"
+      >
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
+    </footer>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.cjs.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="./dist/cr_landingpage.js"></script>
-
   </body>
 </html>
