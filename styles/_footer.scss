@@ -1,0 +1,44 @@
+.cr-footer {
+  background-color: #683b16;
+  padding: 30px;
+  bottom: 0;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &_divider {
+      height: 1px;
+      width: 1000px;
+      display: block;
+      align-self: start;
+      background-color: #7c614b;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
+    &_list {
+      display: flex;
+      gap: 100px;
+      align-items: center;
+      justify-content: center;
+      li {
+        a {
+          color: white;
+          font-size: 20px;
+          font-weight: 300;
+          transition: color 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+          &:hover {
+            color: #beaa9a;
+          }
+        }
+
+        i {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
