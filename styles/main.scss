@@ -1,3 +1,26 @@
+@font-face {
+  font-family: 'Maharlika';
+  src: url('../fonts/Maharlika-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Now';
+  src: url('../fonts/Now-Regular.otf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Now';
+  src: url('../fonts/Now-Thin.otf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Now';
+  src: url('../fonts/Now-Bold.otf') format('truetype');
+  font-weight: 700;
+}
+
 @import './reset';
 @import './glide/glide.core';
 @import './glide/glide.theme';

@@ -1,9 +1,9 @@
 .cr-about {
-  max-width: 1200px;
-  padding: 50px 30px 80px 50px;
+  padding: 40px 70px 80px 100px;
   margin: 0 auto;
   display: flex;
   gap: 100px;
+  background-color: #efe3d7;
 
   @media only screen and (max-width: 768px) {
     padding: 20px;
@@ -17,6 +17,7 @@
     position: relative;
     gap: 20px;
     width: 50%;
+    margin: 0 auto;
 
     @media only screen and (max-width: 768px) {
       padding: 0px 20px;
@@ -26,9 +27,9 @@
     }
 
     &_title {
-      font-family: 'Square Peg', cursive;
-      font-size: 70px;
-      color: #ebb342;
+      font-family: 'Maharlika';
+      font-size: 35px;
+      color: #d4a55d;
       font-weight: 300;
 
       @media only screen and (max-width: 768px) {
@@ -37,7 +38,7 @@
 
       strong {
         font-size: 60px;
-        color: #b39379;
+        color: #bd613b;
         margin-top: -10px;
 
         @media only screen and (max-width: 768px) {
@@ -46,18 +47,24 @@
       }
     }
 
-    &_subtitle {
+    &_subtitle p {
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 700;
+      font-family: Now;
+      line-height: 130%;
+      color: #373431;
 
       @media only screen and (max-width: 768px) {
         font-size: 16px;
       }
     }
 
-    &_description {
-      font-size: 18px;
-      font-weight: 400;
+    &_description p {
+      font-family: Now;
+      color: #373431;
+      line-height: 130%;
+      font-size: 16px;
+      font-weight: 500;
 
       @media only screen and (max-width: 768px) {
         font-size: 16px;
