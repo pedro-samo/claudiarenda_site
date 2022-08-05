@@ -2,7 +2,7 @@
   width: 100vw;
   background-image: url('../images/wallpaper.jpg');
   background-size: contain;
-  height: 350px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +10,7 @@
   justify-content: center;
 
   h3 {
-    font-family: 'Square Peg', cursive;
+    font-family: 'Maharlika';
     color: #683b16;
     font-size: 60px;
     margin-bottom: 30px;
@@ -23,6 +23,7 @@
     justify-content: center;
 
     &_baloon {
+      font-family: Now;
       position: relative;
       width: 450px;
       height: 130px;

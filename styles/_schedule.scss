@@ -1,11 +1,12 @@
 .cr-schedule {
-  background-color: #683b16;
+  background-color: #373431;
   height: auto;
   display: flex;
   color: white;
   align-items: center;
   padding: 80px 120px;
   gap: 150px;
+  font-family: Now;
 
   &__logo {
     width: 80%;
@@ -25,12 +26,17 @@
       width: 250px;
       display: block;
       align-self: start;
-      background-color: #7c614b;
+      background-color: #efe3d7;
       margin-left: 0px;
+    }
+
+    &_main {
+      line-height: 1.6;
     }
 
     &_secondary {
       font-weight: 300;
+      line-height: 1.6;
     }
   }
 
@@ -43,14 +49,15 @@
     justify-content: space-between;
 
     h3 {
-      font-family: 'Square Peg', cursive;
-      font-size: 120px;
+      font-family: 'Maharlika';
+      font-size: 80px;
       font-weight: 300;
       text-align: center;
     }
 
     p {
       width: 80%;
+      line-height: 1.5;
       text-align: center;
     }
 
@@ -64,25 +71,25 @@
       width: 250px;
       display: block;
       align-self: start;
-      background-color: #7c614b;
+      background-color: #efe3d7;
     }
 
     a {
       background-color: white;
       margin-top: 30px;
-      color: #683b16;
+      color: #373431;
       font-size: 20px;
-      border: 1px solid #683b16;
+      border: 1px solid #373431;
       padding: 10px 40px;
       border-radius: 5px;
       border: 0px;
       font-weight: 700;
       cursor: pointer;
-      font-family: 'Source Serif Pro', serif;
-      transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+      font-family: 'Maharlika';
+      transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
       &:hover {
-        background-color: #683b16;
+        background-color: #373431;
         border: 1px solid white;
         color: white;
       }
