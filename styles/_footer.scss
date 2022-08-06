@@ -16,6 +16,12 @@
       background-color: #7c614b;
       margin: 0 auto;
       margin-bottom: 30px;
+
+      @media only screen and (max-width: 768px) {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+      }
     }
 
     &_list {
@@ -23,6 +29,12 @@
       gap: 100px;
       align-items: center;
       justify-content: center;
+
+      @media only screen and (max-width: 768px) {
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
       li {
         a {
           font-family: Now;

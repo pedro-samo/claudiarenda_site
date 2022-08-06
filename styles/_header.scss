@@ -5,12 +5,21 @@
   flex-direction: column;
   z-index: 1;
 
+  @media only screen and (max-width: 768px) {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__nav {
     align-self: flex-end;
     padding: 25px 120px 20px 80px;
 
     @media only screen and (max-width: 768px) {
-      padding: 20px;
+      padding: 0px;
+      align-self: center;
+      position: relative;
+      margin-left: 80px;
     }
 
     &_list {
@@ -23,7 +32,7 @@
       @media only screen and (max-width: 768px) {
         gap: 15px;
         font-size: 16px;
-        width: 60%;
+        width: 80%;
         flex-wrap: wrap;
       }
 
@@ -70,6 +79,8 @@
     margin-top: -10px;
 
     @media only screen and (max-width: 768px) {
+      position: relative;
+      max-height: 150px;
       left: 20px;
     }
 
@@ -78,8 +89,8 @@
       width: 150px;
 
       @media only screen and (max-width: 768px) {
-        width: 100px;
-        padding: 30px 20px 30px;
+        width: 80px;
+        padding: 30px 20px 10px;
       }
     }
   }

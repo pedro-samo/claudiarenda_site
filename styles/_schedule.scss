@@ -8,6 +8,13 @@
   gap: 150px;
   font-family: Now;
 
+  @media only screen and (max-width: 768px) {
+    gap: 20px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
   &__logo {
     width: 80%;
     display: flex;
@@ -28,6 +35,10 @@
       align-self: start;
       background-color: #efe3d7;
       margin-left: 0px;
+
+      @media only screen and (max-width: 768px) {
+        align-self: center;
+      }
     }
 
     &_main {
@@ -53,6 +64,10 @@
       font-size: 80px;
       font-weight: 300;
       text-align: center;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 60px;
+      }
     }
 
     p {
