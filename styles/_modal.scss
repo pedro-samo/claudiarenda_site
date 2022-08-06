@@ -57,13 +57,17 @@
 
   &_title {
     font-weight: 600;
-    margin: 15px 0 5px;
+    margin: 25px 0 5px;
     font-size: 1.1rem;
   }
 
   &_subtitle {
     font-weight: 600;
     margin: 5px 0;
+
+    &.value {
+      margin: 10px 0;
+    }
   }
 
   &_list {

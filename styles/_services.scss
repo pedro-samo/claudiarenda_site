@@ -144,7 +144,7 @@
       }
     }
 
-    input:checked ~ &_content {
+    input:checked {
       max-height: 400px;
       transition: max-height, 1s;
 

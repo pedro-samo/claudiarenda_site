@@ -1,3 +1,7 @@
+MicroModal.init({
+  onClose: () => console.log('FECHOU'), // [2]
+});
+
 const initFunctions = {
   carouselSlide: function () {
     const glide = new Glide('.glide', {
@@ -14,6 +18,7 @@ const initFunctions = {
     buttons.forEach((button, index) => {
       button.addEventListener('click', () => {
         MicroModal.show(`modal-${index + 1}`);
+        button.querySelector('input').checked = true;
       });
     });
   },
