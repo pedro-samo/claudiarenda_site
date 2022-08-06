@@ -119,12 +119,13 @@ section {
 body > * {
   line-height: 1;
   box-sizing: border-box;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Now', sans-serif;
   color: #3a3a3a;
   font-weight: 600;
 }
 body {
   overflow-x: hidden;
+  width: 100vw;
 }
 ol,
 ul {
