@@ -19,6 +19,7 @@ const initFunctions = {
       button.addEventListener('click', () => {
         MicroModal.show(`modal-${index + 1}`);
         button.querySelector('input').checked = true;
+        button.querySelector('.modal__container').scroll(0, 0);
       });
     });
   },
