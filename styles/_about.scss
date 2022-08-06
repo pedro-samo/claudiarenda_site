@@ -1,9 +1,10 @@
 .cr-about {
-  padding: 40px 70px 80px 100px;
+  max-width: 90%;
   margin: 0 auto;
+  padding: 80px 0;
+  background-color: #fff;
+  position: relative;
   display: flex;
-  gap: 100px;
-  background-color: white;
 
   @media only screen and (max-width: 768px) {
     padding: 20px;
@@ -17,7 +18,6 @@
     position: relative;
     gap: 20px;
     width: 50%;
-    margin: 0 auto;
 
     @media only screen and (max-width: 768px) {
       padding: 0px 20px;
@@ -27,7 +27,7 @@
     }
 
     &_title {
-      font-family: 'Maharlika';
+      font-family: 'Maharlika', serif;
       font-size: 35px;
       color: #d4a55d;
       font-weight: 300;
@@ -51,7 +51,7 @@
       font-size: 18px;
       font-weight: 700;
       font-family: Now;
-      line-height: 130%;
+      line-height: 140%;
       color: #373431;
 
       @media only screen and (max-width: 768px) {
@@ -62,7 +62,7 @@
     &_description p {
       font-family: Now;
       color: #373431;
-      line-height: 130%;
+      line-height: 140%;
       font-size: 16px;
       font-weight: 500;
 
@@ -74,8 +74,12 @@
   }
 
   &__image {
+    position: absolute;
+    right: 0px;
+    top: 40px;
     display: flex;
     flex-direction: column;
+
     @media only screen and (max-width: 768px) {
       align-items: center;
     }

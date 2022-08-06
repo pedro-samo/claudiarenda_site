@@ -10,12 +10,16 @@ const initFunctions = {
   },
 
   openModal: function () {
-    MicroModal.show('modal-1');
+    const buttons = document.querySelectorAll('.cr-services__container_wrap');
+    buttons.forEach((button, index) => {
+      button.addEventListener('click', () => {
+        MicroModal.show(`modal-${index + 1}`);
+      });
+    });
   },
 };
 
 window.addEventListener('DOMContentLoaded', (event) => {
-  initFunctions.changeImageServecice();
   initFunctions.carouselSlide();
-  // initFunctions.openModal();
+  initFunctions.openModal();
 });

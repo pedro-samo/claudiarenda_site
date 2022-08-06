@@ -126,13 +126,34 @@ body > * {
 body {
   overflow-x: hidden;
   width: 100vw;
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d4a55d #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d4a55d;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
 }
 ol,
 ul {
   list-style: none;
 }
 p {
-  line-height: 1.2;
+  line-height: 140%;
 }
 
 input::-webkit-outer-spin-button,

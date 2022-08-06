@@ -1,9 +1,7 @@
 .cr-services {
   background-color: #f9efdb;
-  margin-top: -300px;
   display: flex;
   align-items: center;
-  padding-bottom: 50px;
 
   @media only screen and (max-width: 768px) {
     margin-top: 0px;
@@ -23,7 +21,7 @@
     }
 
     &_main {
-      font-family: 'Maharlika';
+      font-family: 'Maharlika', serif;
       font-weight: 300;
       font-size: 80px;
       color: #bd613b;
