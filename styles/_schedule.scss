@@ -1,8 +1,8 @@
 .cr-schedule {
-  background-color: #373431;
+  background-color: #787f50;
   height: auto;
   display: flex;
-  color: white;
+  color: #efe3d7;
   align-items: center;
   padding: 80px 120px;
   gap: 150px;
@@ -58,6 +58,7 @@
     align-items: center;
     min-height: 300px;
     justify-content: space-between;
+    position: relative;
 
     h3 {
       font-family: 'Maharlika', serif;
@@ -90,9 +91,11 @@
     }
 
     a {
+      position: absolute;
+      bottom: -70px;
       background-color: white;
       margin-top: 30px;
-      color: #373431;
+      color: #787f50;
       font-size: 20px;
       border: 1px solid #373431;
       padding: 10px 40px;
@@ -104,7 +107,7 @@
       transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 
       &:hover {
-        background-color: #373431;
+        background-color: #787f50;
         border: 1px solid white;
         color: white;
       }
