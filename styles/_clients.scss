@@ -1,12 +1,12 @@
 .cr-clients {
   width: 100vw;
   background-image: url('../images/wallpaper.jpg');
-  background-size: contain;
-  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 20px;
   justify-content: center;
 
   @media only screen and (max-width: 768px) {
