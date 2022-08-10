@@ -1,8 +1,14 @@
-MicroModal.init({
-  onClose: () => console.log('FECHOU'), // [2]
-});
-
 const initFunctions = {
+  menuMobile: function () {
+    const menuButton = document.querySelector('.cr-header__nav_mobmenu');
+    const navList = document.querySelector('.cr-header__nav');
+    menuButton.addEventListener('click', () => {
+      [menuButton, navList].forEach((element) =>
+        element.classList.toggle('open')
+      );
+    });
+  },
+
   carouselSlide: function () {
     const glide = new Glide('.glide', {
       autoplay: 4000,
@@ -28,4 +34,5 @@ const initFunctions = {
 window.addEventListener('DOMContentLoaded', (event) => {
   initFunctions.carouselSlide();
   initFunctions.openModal();
+  initFunctions.menuMobile();
 });
