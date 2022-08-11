@@ -11,7 +11,7 @@ const initFunctions = {
 
   carouselSlide: function () {
     const glide = new Glide('.glide', {
-      autoplay: false,
+      autoplay: 5000,
       hoverpause: true,
       animationDuration: 1000,
       perView: 1,
