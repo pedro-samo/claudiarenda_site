@@ -3,6 +3,10 @@
   padding: 30px;
   bottom: 0;
 
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+
   &__nav {
     display: flex;
     align-items: center;
