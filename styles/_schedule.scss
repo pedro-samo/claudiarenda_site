@@ -68,7 +68,13 @@
     &_icons {
       display: flex;
       align-items: center;
-      color: white;
+      color: #efe3d7;
+
+      &:visited,
+      &:focus,
+      &:active {
+        color: #efe3d7;
+      }
 
       svg {
         margin-right: 5px;
