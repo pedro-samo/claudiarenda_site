@@ -28,6 +28,7 @@
 
     .mob {
       display: none;
+      min-height: 300px;
       @media only screen and (max-width: 768px) {
         display: block;
       }
@@ -35,6 +36,7 @@
 
     .desk {
       display: block;
+      min-height: 400px;
       @media only screen and (max-width: 768px) {
         display: none;
       }
