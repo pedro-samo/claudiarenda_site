@@ -28,8 +28,13 @@
     }
 
     img {
-      max-width: 200px;
+      max-width: 300px;
       margin-bottom: 10px;
+      filter: brightness(0) invert(1);
+
+      @media only screen and (max-width: 768px) {
+        max-width: 200px;
+      }
     }
 
     &_divider {

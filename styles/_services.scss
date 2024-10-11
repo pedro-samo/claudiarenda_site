@@ -1,5 +1,5 @@
 .cr-services {
-  background-color: #f4ebe6;
+  background-color: #d3c3b2;
   display: flex;
   align-items: center;
 
@@ -24,7 +24,7 @@
       font-family: 'Maharlika', serif;
       font-weight: 300;
       font-size: 80px;
-      color: #bd613b;
+      color: #6b390b;
       margin-left: 10px;
 
       @media only screen and (max-width: 768px) {
@@ -50,7 +50,7 @@
       padding: 10px 80px;
       font-size: 18px;
       font-weight: 400;
-      color: #5d5955;
+      color: #6b390b;
 
       @media only screen and (max-width: 768px) {
         padding: 20px;
@@ -84,7 +84,7 @@
       width: 100%;
       height: 50px;
       cursor: pointer;
-      border: 3px solid #d4a55d;
+      border: 3px solid #6b390b;
       user-select: none;
       padding-top: 5px;
       font-size: 18px;
@@ -121,7 +121,7 @@
     &_cross:before,
     &_cross:after {
       content: '';
-      border-top: 2px solid #d4a55d;
+      border-top: 2px solid #6b390b;
       width: 15px;
       display: block;
       margin-top: 18px;

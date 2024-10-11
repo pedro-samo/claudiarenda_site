@@ -12,7 +12,7 @@
   }
 
   &__nav {
-    align-self: flex-end;
+    align-self: center;
     padding: 25px 120px 20px 80px;
 
     @media only screen and (max-width: 768px) {
@@ -45,7 +45,7 @@
         top: 0px;
         display: block;
         box-shadow: -2px 3px 8px 4px rgba(0, 0, 0, 0.15);
-        background-color: #d4a55d;
+        background-color: #6b390b;
         animation: scale-up-ver-top 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
           both;
 
@@ -83,8 +83,8 @@
         a {
           position: relative;
           cursor: pointer;
-          color: #d4a55d;
-          font-family: 'Maharlika', serif;
+          color: #6b390b;
+          font-family: 'Belleza', sans-serif;
 
           @media only screen and (max-width: 768px) {
             color: white;
@@ -112,10 +112,25 @@
 
         i {
           font-size: 25px;
-          color: #d4a55d;
+          color: #6b390b;
 
           @media only screen and (max-width: 768px) {
             color: white;
+          }
+        }
+
+        img {
+          max-width: 200px;
+          margin: 0 50px;
+        }
+
+        &.instagram {
+          position: absolute;
+          right: 100px;
+
+          @media only screen and (max-width: 768px) {
+            position: relative;
+            right: 0;
           }
         }
       }
@@ -186,10 +201,7 @@
 
   &__logo {
     position: absolute;
-    background-color: #f0e2d5;
     left: 150px;
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-    border-radius: 10px;
     margin-top: -10px;
 
     @media only screen and (max-width: 768px) {
@@ -204,7 +216,7 @@
       width: 150px;
 
       @media only screen and (max-width: 768px) {
-        width: 80px;
+        width: 200px;
         padding: 30px 20px 10px;
       }
     }

@@ -1,7 +1,7 @@
 .cr-about {
   margin: 0 auto;
   padding: 80px 7%;
-  background-color: #ffff;
+  background-color: #ebe1d1;
   position: relative;
   display: flex;
 
@@ -28,9 +28,9 @@
     }
 
     &_title {
-      font-family: 'Maharlika', serif;
+      font-family: 'Halimun', serif;
       font-size: 35px;
-      color: #f3c580;
+      color: #6b390b;
       font-weight: 300;
 
       @media only screen and (max-width: 768px) {
@@ -39,12 +39,12 @@
 
       strong {
         font-size: 60px;
-        color: #d4a55d;
+        color: #6b390b;
         margin-top: -10px;
 
         @media only screen and (max-width: 768px) {
           display: block;
-          margin-top: 0px;
+          margin-top: 20px;
           font-size: 40px;
         }
       }
@@ -55,7 +55,7 @@
       font-weight: 700;
       font-family: Now;
       line-height: 140%;
-      color: #5d5955;
+      color: #6b390b;
 
       @media only screen and (max-width: 768px) {
         font-size: 16px;
@@ -64,7 +64,7 @@
 
     &_description p {
       font-family: Now;
-      color: #5d5955;
+      color: #6b390b;
       line-height: 140%;
       font-size: 16px;
       font-weight: 500;
