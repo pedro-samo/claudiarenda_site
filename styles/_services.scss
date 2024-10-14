@@ -21,14 +21,15 @@
     }
 
     &_main {
-      font-family: 'Maharlika', serif;
+      font-family: 'Halimun', serif;
       font-weight: 300;
-      font-size: 80px;
+      font-size: 60px;
       color: #6b390b;
       margin-left: 10px;
 
       @media only screen and (max-width: 768px) {
-        font-size: 70px;
+        font-size: 35px;
+        margin-top: 10px;
       }
     }
 
@@ -84,10 +85,12 @@
       width: 100%;
       height: 50px;
       cursor: pointer;
-      border: 3px solid #6b390b;
+      border: 2px solid #6b390b;
       user-select: none;
       padding-top: 5px;
       font-size: 18px;
+      color: #6b390b;
+      border-radius: 15px;
 
       @media only screen and (max-width: 768px) {
         font-size: 15px;

@@ -1,22 +1,22 @@
 .cr-clients {
   width: 100vw;
   background-color: #f4ebe6;
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
   @media only screen and (max-width: 768px) {
-    height: 300px;
+    height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   h3 {
-    font-family: 'Maharlika', serif;
+    font-family: 'Halimun', serif;
     color: #6b390b;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 30px;
 
     @media only screen and (max-width: 768px) {
@@ -85,8 +85,12 @@
 }
 
 .glide {
-  &__Slide {
-    height: 150px !important;
+  // &__Slide {
+  //   height: 150px !important;
+  // }
+
+  &__slides {
+    align-items: center;
   }
 
   &__arrow {
@@ -96,8 +100,19 @@
     color: #6b390b;
 
     @media only screen and (max-width: 768px) {
-      margin-top: 50px;
       font-size: 35px;
+    }
+
+    &--left {
+      @media only screen and (max-width: 768px) {
+        left: -0.5rem;
+      }
+    }
+
+    &--right {
+      @media only screen and (max-width: 768px) {
+        right: -0.5rem;
+      }
     }
   }
 }
